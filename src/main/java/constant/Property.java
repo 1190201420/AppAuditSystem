@@ -1,0 +1,80 @@
+package constant;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Property {
+    public static Map<String, String> keywordToProperty = new HashMap<>();
+
+    static {
+        keywordToProperty.put("location", "location");
+        keywordToProperty.put("user", "user");
+        keywordToProperty.put("properties", "read");
+        keywordToProperty.put("path", "path");
+        keywordToProperty.put("storage", "path");
+        keywordToProperty.put("notif", "notify");
+        keywordToProperty.put("net", "net");
+        keywordToProperty.put("wifi", "wifi");
+        keywordToProperty.put("recog", "recog");
+        keywordToProperty.put("mail", "mail");
+        keywordToProperty.put("call", "call");
+        keywordToProperty.put("phone", "call");
+        keywordToProperty.put("device", "device");
+        keywordToProperty.put("battery", "device");
+        keywordToProperty.put("bind", "bind");
+        keywordToProperty.put("widget", "widget");
+        keywordToProperty.put("bluetooth", "bluetooth");
+        keywordToProperty.put("broadcast", "broad");
+        keywordToProperty.put("camera", "camera");
+        keywordToProperty.put("audio", "audio");
+        keywordToProperty.put("change", "change");
+        keywordToProperty.put("manage", "change");
+        keywordToProperty.put("cache", "cache");
+        keywordToProperty.put("delete", "delete");
+        keywordToProperty.put("message", "message");
+        keywordToProperty.put("screen", "screen");
+        keywordToProperty.put("key", "key");
+        keywordToProperty.put("owner", "owner");
+        keywordToProperty.put("bar", "bar");
+        keywordToProperty.put("test", "test");
+        keywordToProperty.put("fore", "fore");
+        keywordToProperty.put("sync", "sync");
+        keywordToProperty.put("media", "media");
+        keywordToProperty.put("micro", "micro");
+        keywordToProperty.put("account", "account");
+        keywordToProperty.put("task", "task");
+        keywordToProperty.put("window", "window");
+        keywordToProperty.put("install", "install");
+        keywordToProperty.put("kill", "kill");
+        keywordToProperty.put("policy", "policy");
+        keywordToProperty.put("nfc", "nfc");
+        keywordToProperty.put("activity", "activity");
+        keywordToProperty.put("package", "package");
+        keywordToProperty.put("search", "search");
+        keywordToProperty.put("calendar", "calendar");
+        keywordToProperty.put("date", "calendar");
+        keywordToProperty.put("log", "log");
+        keywordToProperty.put("image", "image");
+        keywordToProperty.put("video", "video");
+        keywordToProperty.put("number", "number");
+        keywordToProperty.put("sms", "sms");
+        keywordToProperty.put("boot", "boot");
+        keywordToProperty.put("wap", "wap");
+        keywordToProperty.put("compan", "compan");
+        keywordToProperty.put("password ", "pwd");
+        keywordToProperty.put("alarm", "alarm");
+        keywordToProperty.put("anima", "anima");
+        keywordToProperty.put("debug", "debug");
+        keywordToProperty.put("time", "time");
+        keywordToProperty.put("limit", "limit");
+        keywordToProperty.put("wall", "wall");
+        keywordToProperty.put("ir", "ir");
+        keywordToProperty.put("update", "update");
+        keywordToProperty.put("biom", "biom");
+        keywordToProperty.put("sip", "sip");
+        keywordToProperty.put("vibrate", "vibrate");
+        keywordToProperty.put("apn", "apn");
+        keywordToProperty.put("googole", "google");
+        keywordToProperty.put("secure", "secure");
+    }
+}
