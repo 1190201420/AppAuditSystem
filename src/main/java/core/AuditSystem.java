@@ -11,7 +11,7 @@ import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.util.*;
 
-public class SecureSystem {
+public class AuditSystem {
     public static void main(String[] args) {
         Map<MyMethod, Integer> map = new HashMap<>();
         Set<String> set = new HashSet<>();
